@@ -14,5 +14,9 @@ BeautifulSoup: It is an incredible tool for pulling out information from a webpa
 
 BeautifulSoup does not fetch the web page for us. That’s why, I use urllib2 in combination with the BeautifulSoup library.
 
+Code written in BeautifulSoup is usually more robust than the one written using regular expressions. Codes written with regular expressions need to be altered with any changes in pages. Even BeautifulSoup needs that in some cases, it is just that BeautifulSoup is relatively better.
 
+Regular expressions are much faster than BeautifulSoup, usually by a factor of 100 in giving the same outcome.
+
+So, it boils down to speed vs. robustness of the code and there is no universal winner here.
 
